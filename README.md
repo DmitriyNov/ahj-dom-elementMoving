@@ -1,0 +1,1 @@
+![CI](https://github.com/DmitriyNov/ahj-dom-elementMoving/actions/workflows/web.yml/badge.svg)
