@@ -2,8 +2,8 @@ const cells = document.querySelectorAll(".field-item");
 let current;
 
 function addImage(number) {
-  const image = document.createElement("img");
-  image.src = "/src/img/goblin.png";
+  const image = document.createElement("div");
+  image.classList.add("image")
   cells[number].classList.add("active");
   cells[number].appendChild(image);
 }
@@ -22,4 +22,4 @@ setInterval(() => {
   }
   addImage(number);
   current = number;
-}, 3000);
+}, 1000);

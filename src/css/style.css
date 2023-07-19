@@ -40,3 +40,10 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.image {
+    height: 192px;
+    width: 192px;
+    background: url('/src/img/goblin.png');
+    background-size: contain;
+}
