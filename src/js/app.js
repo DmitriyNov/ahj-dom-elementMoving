@@ -3,7 +3,7 @@ let current;
 
 function addImage(number) {
   const image = document.createElement("img");
-  image.src = "2dbd01ce16c0fa83cb67.png";
+  image.src = "/src/img/goblin.png";
   cells[number].classList.add("active");
   cells[number].appendChild(image);
 }
